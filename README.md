@@ -45,7 +45,7 @@ Docker images are available on [Docker Hub](https://hub.docker.com/u/fusionauth/
 
 FusionAuth App
 ```bash
-docker pull fusionauth/fusionauth-app
+docker pull fusionauth/fusionauth-app:latest
 ```
 
 <br>
@@ -54,11 +54,11 @@ docker pull fusionauth/fusionauth-app
 
 #### Arm64
 
-One of our FusionAuth MVPs [@jerryhopper](https://github.com/jerryhopper) has been building FusionAuth for use on the Arm64 platform. Find the Arm64 images on [hub.docker.com/r/jerryhopper/fusionauth-app-arm64](https://hub.docker.com/r/jerryhopper/fusionauth-app-arm64) or using the following pull command.
+One of our FusionAuth MVPs [@jerryhopper](https://github.com/jerryhopper) has been building FusionAuth for use on the Arm64 platform. Find the Arm64 images on [hub.docker.com/r/jerryhopper/fusionauth-app](https://hub.docker.com/r/jerryhopper/fusionauth-app) or using the following pull command.
 
 
 ```bash
-docker pull jerryhopper/fusionauth-app-arm64
+docker pull jerryhopper/fusionauth-app:latest
 ```
 
 For a walk through on running FusionAuth on Arm64, review the following article provided by [@jerryhopper](https://github.com/jerryhopper).
